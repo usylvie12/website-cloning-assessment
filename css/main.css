@@ -17,6 +17,32 @@ Use a better box model (opinionated).
   box-sizing: border-box;
 }
 
+.dropdown{
+  position: relative;
+  
+}
+
+.dropdown-menu{
+  position: absolute;
+  left: 0;
+  top: 100%;
+  
+
+  background-color: aliceblue;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  z-index: 1; 
+  
+}
+.link:hover + .dropdown-menu{
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
 /**
 Use a more readable tab size (opinionated).
 */

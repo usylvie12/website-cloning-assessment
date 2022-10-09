@@ -10,11 +10,11 @@
 <body class="m-0" >
     <nav class="bg-white relative container mx-auto p-2  ">
         
-        <div class="flex justify-between  ">
+        <div class=" flex justify-between  ">
           
           
             <img src="/images/logo.png" alt="" class="h-16 mr-3 ">
-          <div class="md:flex space-x-6 ">
+          <div class="hidden md:flex space-x-6 ">
             
             <a href="#" class=" hover:text-gray-200">Home</a>
             
@@ -32,11 +32,58 @@
           
           
         </div>
-        <div class="md:flex justify-end space-x-4 pt-0 ">
+        <div class="hidden md:flex justify-end space-x-4 pt-0 ">
             
-            <a href="#" class=" hover:text-gray-200">Home</a>
+            <div class="dropdown">
+                <button href="#" class="link outline-none focus:outline-none p-0 hover:text-gray-200">Home</button>
+                <div class="dropdown-menu flex shadow p-4 rounded-md" >
+                  <div class="flex flex-col p-4 ">
+                    <h2>Profile</h2>
+                    <a href="">Mission</a>
+                    <a href="">Excellence</a>
+                    <a href="">Management</a>
+                    
+                  </div>
+                  <div class="flex flex-col p-4">
+                    <h2 class="font-bold">Organization</h2>
+                    <a href="">Mission</a>
+                    <a href="">Excellence</a>
+                    <a href="">Management</a>
+                  </div>
+                  <div class="flex flex-col p-4">
+                    <h2 class="font-bold">Profile</h2>
+                    <a href="">Mission</a>
+                    <a href="">Excellence</a>
+                    <a href="">Management</a>
+                  </div>
+                </div>
+                
+                </div>
             
-            <a href="#" class=" hover:text-gray-200">Plain Language</a>
+                <div class="dropdown">
+                    <button href="#" class="link outline-none focus:outline-none p-0 hover:text-gray-200">Plain Language</button>
+                    <div class="dropdown-menu flex shadow p-4 rounded-md" >
+                      <div class="flex flex-col p-4 ">
+                        <h2>Profile</h2>
+                        <a href="">Mission</a>
+                    <a href="">Excellence</a>
+                    <a href="">Management</a>
+                      </div>
+                      <div class="flex flex-col p-4">
+                        <h2 class="font-bold">Organization</h2>
+                        <a href="">Mission</a>
+                    <a href="">Excellence</a>
+                    <a href="">Management</a>
+                      </div>
+                      <div class="flex flex-col p-4">
+                        <h2 class="font-bold">Profile</h2>
+                        <a href="">Mission</a>
+                    <a href="">Excellence</a>
+                    <a href="">Management</a>
+                      </div>
+                    </div>
+                    
+                    </div>
             <a href="#" class=" hover:text-gray-200">Legals</a>
             <a href="#" class=" hover:text-gray-200">Privacy Policy</a>
             <a href="" class="hover:text-gray-200">Accessbility</a>
@@ -47,20 +94,22 @@
            
           </div>
         <div class="md:hidden flex justify-between">
-          <img src="/images/meta-logo.png" alt="" class="h-5 ">
+          <img src="" alt="" class="h-5 ">
           <button><img src="images/icons8-hamburger-64.png" alt="" class="hover:bg-gray-200 h-6"></button>
           
           </div>
           <div class="md:hidden flex flex-col ">
-            <a href="#" class=" hover:text-gray-200">Shop</a>
-            <a href="#" class=" hover:text-gray-200">Our technologies</a>
-            <a href="#" class=" hover:text-gray-200">About Us</a>
-            <a href="#" class=" hover:text-gray-200">Build with Us</a>
+            <a href="#" class=" hover:text-gray-200">Legals</a>
+            <a href="#" class=" hover:text-gray-200">Privacy Policy</a>
+            <a href="" class="hover:text-gray-200">Accessbility</a>
+            <a href="#" class=" hover:text-gray-200">Legals</a>
+            <a href="#" class=" hover:text-gray-200">Privacy Policy</a>
+            <a href="" class="hover:text-gray-200">Accessbility</a>
           </div>
           
           
        </nav>
-       <div class="py-20  bg-fixed text-white" style="background-image: url(images/header_klimaforschung-Afrika_schattiert.jpeg)">
+       <div class="flex flex-col py-20  bg-fixed text-white" style="background-image: url(images/header_klimaforschung-Afrika_schattiert.jpeg)">
         <h1 class="text-white text-4xl font-bold p-9 border-b-4 border-green-700 ">Tracking the Weather</h1>
         <p class=" px-9">Climate reasearch in Africa</p>
         <div class=" justify-between space-x-4 md:flex px-9 py-5">
